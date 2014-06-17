@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SubModule1"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "Summary"
 
   s.description  = 'description'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "dhanaprakashm" => "dhana.muddineti@kroger.com" }
   
   s.source       = { :git => "https://github.com/dhanaprakashm/SubModule1.git", 
-                     :tag => "v1.1" }
+                     :tag => "1.2" }
 
   s.ios.platform   = :ios, '7.0'                     
 
